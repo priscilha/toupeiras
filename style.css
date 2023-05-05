@@ -8,8 +8,113 @@
     font-size: 62.5%;
 }
 
-body {
-    background-image: url(/img/fundo.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+
+.jardim {
+    max-width: 100%;
+    height: auto;
+    display: grid;
+    position: relative;
+    
 }
+
+.toupeira {
+    width: 22.3rem;
+    height: 22rem;
+    background-image: url(/img/toupeira6.svg);
+}
+
+
+.toupeira_um {
+    animation: topTopeiras 1s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+}
+.toupeira_dois {
+    animation: topTopeiras 1s;
+    animation-delay: 4s;
+    animation-iteration-count: 1;
+}
+.toupeira_tres {
+    animation: topTopeiras 1s;
+    animation-delay: 6s;
+    animation-iteration-count: 1;
+}
+.buracos {
+    display: grid;
+    position: absolute;
+    width: 90rem;
+   
+
+    grid-template-areas: 
+    "A B C D"
+    "E F G H"
+    "I J K L";
+   
+    margin: 25rem auto 0 25rem;
+    gap: 6rem;
+    
+}
+
+.buracos div:nth-child(1){
+    grid-area: A;
+}
+.buracos div:nth-child(2){
+    grid-area: B;
+}
+.buracos div:nth-child(3){
+    grid-area: C;
+}
+.buracos div:nth-child(4){
+    grid-area: D;
+}
+.buracos div:nth-child(5){
+    grid-area: E;
+}
+.buracos div:nth-child(6){
+    grid-area: F;
+}
+.buracos div:nth-child(7){
+    grid-area: G;
+}
+.buracos div:nth-child(8){
+    grid-area: H;
+}
+.buracos div:nth-child(9){
+    grid-area: I;
+}
+.buracos div:nth-child(10){
+    grid-area: J;
+}
+.buracos div:nth-child(11){
+    grid-area: K;
+}
+.buracos div:nth-child(12){
+    grid-area: L;
+}
+
+@keyframes topTopeiras {
+    0% {
+        background-image: url(/img/toupeira1.svg);
+    }
+    20% {
+        background-image: url(/img/toupeira2.svg);
+    }
+    40% {
+        background-image: url(/img/toupeira3.svg);
+    }
+    60% {
+        background-image: url(/img/toupeira4.svg);
+    }
+    80% {
+        background-image: url(/img/toupeira5.svg);
+    }
+    100% {
+        background-image: url(/img/toupeira6.svg);
+    }
+
+}
+
+
+
+
+
