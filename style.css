@@ -8,12 +8,20 @@
     font-size: 62.5%;
 }
 
+body {
+    background-image: url(/img/fundo.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
 
 .jardim {
-    max-width: 100%;
+    height: 100%;
     height: auto;
     display: grid;
     position: relative;
+ 
+   
     
 }
 
@@ -97,19 +105,22 @@
     0% {
         background-image: url(/img/toupeira6.svg);
     }
-    15% {
+    10% {
+        background-image: url(/img/toupeira6.svg);
+    }
+    20% {
         background-image: url(/img/toupeira1.svg);
     }
-    30% {
+    40% {
         background-image: url(/img/toupeira2.svg);
     }
-    45% {
+    60% {
         background-image: url(/img/toupeira3.svg);
     }
-    60% {
+    80% {
         background-image: url(/img/toupeira4.svg);
     }
-    80% {
+    90% {
         background-image: url(/img/toupeira5.svg);
     }
     100% {
