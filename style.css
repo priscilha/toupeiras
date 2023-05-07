@@ -20,32 +20,47 @@ body {
     height: auto;
     display: grid;
     position: relative;
- 
+    margin-left: 11rem;
    
-    
+        
 }
 
 .toupeira {
-    width: 22.3rem;
+    width: 22.2rem;
     height: 16.9rem;
     background-image: url(/img/toupeira6.svg);
-   
+      
 }
 
 
-.toupeira_um {
+.toupeira:first-child {
     animation: topTopeiras 1s;
     animation-delay: 2s;
     animation-iteration-count: 1;
 }
-.toupeira_dois {
+.toupeira:nth-child(8) {
     animation: topTopeiras 1s;
     animation-delay: 4s;
     animation-iteration-count: 1;
 }
-.toupeira_tres {
+.toupeira:nth-child(11) {
     animation: topTopeiras 1s;
     animation-delay: 6s;
+    animation-iteration-count: 1;
+}
+.toupeira:nth-child(5) {
+    animation: topTopeiras 1s;
+    animation-delay: 8s;
+    animation-iteration-count: 1;
+}
+.toupeira:nth-child(3) {
+    animation: topTopeiras 1s;
+    animation-delay: 10s;
+    animation-iteration-count: 1;
+}
+.toupeira:nth-child(12) {
+    animation: topTopeiras 1s;
+    animation-delay: 12s;
     animation-iteration-count: 1;
 }
 .buracos {
