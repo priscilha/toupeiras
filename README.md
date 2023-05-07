@@ -10,8 +10,8 @@ Recriando uma aplicação a partir de um layout do [**Figma**](https://www.figma
 https://user-images.githubusercontent.com/81052476/236697936-518c0595-ddbe-4607-bec4-54c8c48c3450.mp4
 
 
-:seedling: Esse projeto foi desenvolvido com as seguintes tecnologias:
-HTML 
-CSS
-Github
+:seedling: Esse projeto foi desenvolvido com as seguintes tecnologias: </br> </br>
+HTML </br>
+CSS  </br>
+Github  </br>
 Figma
